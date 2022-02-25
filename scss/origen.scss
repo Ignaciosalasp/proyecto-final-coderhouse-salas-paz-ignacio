@@ -1,0 +1,100 @@
+//Este es un comentario en SCSS
+
+/******************
+Este es un comentario en CSS
+********************/
+
+//IMPORT
+
+@import "tipografia";
+@import "colores";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//APLICO VARIABLES
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: $colorDos;
+    height: 100vh;
+}
+
+h2{
+    margin-bottom: 0.5em;
+}
+h4{
+    margin-bottom: 0.5em;
+}
+section{
+    padding:5% 0;
+}
+
+.columna{
+    margin-bottom: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    color: #2E2E2E;
+}
+
+ul{
+    list-style: none;
+}
+
+
+/*HEADER*/
+
+.logo-icon{
+    width: 100px;
+}
+
+
+/*PORTADA*/
+
+//ANIDAMIENTO
+.portada{
+    background-image: url('../assets/img/termo.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    article{
+        height: 100%;
+    }
+}
+
+.redes li{
+    width: 50px;
+    margin-right: 1em;
+}
+
+/*Galeria*/
+.contenerdor-carrusel .carousel img {
+    object-fit: cover;
+    object-position: right;
+    height: 80vh;
+}
+
+
+/*CONTACTO*/
+
+
+/*FOOTER*/
+.footer{
+    background-color: whitesmoke;
+padding: 0.5em;
+}
+
+/*FOOTER*/
+//APLICO VARIABLES
+.footer{
+    background-color: $colorTres;
+padding: 0.5em;
+}
+.github:hover{
+    color:black;
+    transform: translateY(-3px) scale(1.05);
+}
