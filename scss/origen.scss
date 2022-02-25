@@ -21,13 +21,19 @@ body{
     background-color: $colorDos;
     height: 100vh;
 }
+//Extend
 
+/*****************
+Aplico Extend
+**********/
 h2{
     margin-bottom: 0.5em;
 }
+
 h4{
-    margin-bottom: 0.5em;
+    @extend h2
 }
+
 section{
     padding:5% 0;
 }

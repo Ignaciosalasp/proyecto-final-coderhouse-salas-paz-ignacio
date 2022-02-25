@@ -12,10 +12,10 @@ body {
   background-color: white;
   height: 100vh; }
 
-h2 {
-  margin-bottom: 0.5em; }
-
-h4 {
+/*****************
+Aplico Extend
+**********/
+h2, h4 {
   margin-bottom: 0.5em; }
 
 section {
@@ -53,11 +53,6 @@ ul {
   object-fit: cover;
   object-position: right;
   height: 80vh; }
-
-.carousel-inner .carousel-item img {
-  opacity: 0.85;
-}
-
 
 /*CONTACTO*/
 /*FOOTER*/
