@@ -54,6 +54,11 @@ ul {
   object-position: right;
   height: 80vh; }
 
+.carousel-inner .carousel-item img {
+  opacity: 0.85;
+}
+
+
 /*CONTACTO*/
 /*FOOTER*/
 .footer {
