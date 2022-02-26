@@ -69,3 +69,16 @@ ul {
   color: black;
   transform: translateY(-3px) scale(1.05); }
 
+@media (max-width: 320px) {
+  .navbar-brand img {
+    height: 50px;
+    width: 50px; } }
+
+@media (max-width: 768px) {
+  .navbar-brand img {
+    height: 75px;
+    width: 75px; } }
+
+@media (min-width: 768px) {
+  header {
+    max-height: 20%; } }
