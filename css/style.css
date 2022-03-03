@@ -12,6 +12,10 @@ body {
   background-color: white;
   height: 100vh; }
 
+  h1{
+    margin-bottom: 0.5em;
+  }
+
 /*****************
 Aplico Extend
 **********/
