@@ -15,7 +15,6 @@ body {
   h1{
     margin-bottom: 0.5em;
   }
-
 /*****************
 Aplico Extend
 **********/
@@ -39,9 +38,14 @@ ul {
 .logo-icon {
   width: 100px; }
 
+/*NAVBAR*/
+ .container-fluid{
+  flex-direction: column;
+}
+
 /*PORTADA*/
 .portada {
-  background-image: url("../assets/img/termo.jpg");
+  background-image: url("../assets/img/termo.png");
   height: 100vh;
   background-repeat: no-repeat;
   background-position: center; }
@@ -59,19 +63,75 @@ ul {
   height: 80vh; }
 
 /*CONTACTO*/
-/*FOOTER*/
-.footer {
-  background-color: whitesmoke;
-  padding: 0.5em; }
+.contact{
+  background-image: url("../assets/img/termo.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center; }
 
 /*FOOTER*/
-.footer {
-  background-color: whitesmoke;
-  padding: 0.5em; }
+footer{
+  width: 100%;
+  position: absolute;
+  padding: 2rem 8%;
+  background-color: rgb(204, 203, 203);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
-.github:hover {
-  color: black;
-  transform: translateY(-3px) scale(1.05); }
+.logo-footer{
+  height: 80px;
+  margin-bottom: 1rem;
+}
+
+.social-icons-container, .footer-menu-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.social-icons{
+background-position: center;
+background-size: 40%;
+background-repeat: no-repeat;
+margin: 1rem;
+}
+
+.social-icons img{
+  height: 50px;
+  width: 50px;
+}
+
+.social-icons:hover{
+  filter: invert(1);
+}
+
+
+.footer-menu-container{
+  list-style-type: none;
+  color: #121212;
+  font-size: 18px;
+}
+
+.menu-item{
+  margin: 1rem 1.5rem;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.menu-item:hover{
+  opacity: 1;
+}
+
+.copyright{
+  color: #121212;
+  opacity: 0.3;
+  text-align: center;
+}
 
 @media (max-width: 320px) {
   .navbar-brand img {
